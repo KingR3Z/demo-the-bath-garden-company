@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Elona Cooper", rating: 5, text: "John and Ali cleared, redesigned and constructed a new back garden for my terraced house in Larkhall.  They were thorough and very professional, completing the landscaping work to a high standard.  I found them both easy to work with as …  ", date: "4 years ago" },
+    { name: "Patrick Mill", rating: 5, text: "John had been excellent in working with me to create the garden that I wanted. He is very professional and the quality is extremely high. I would definitely recommend.  ", date: "3 years ago" },
+    { name: "Barbara Suri", rating: 5, text: "John, Ali and Nick have transformed my small garden. The were very easy to have around on the site for two weeks, always professional, punctual, polite and courteous. They were considerate of my neighbours. …  ", date: "3 years ago" },
+    { name: "Jez Flavell", rating: 5, text: "John carried out a large garden renovation at our property. He was very knowledgeable and professional. He and his team were courteous and hardworking delivering on time and on budget. My wife and I would highly recommend them. ", date: "3 years ago" },
+    { name: "OLIVER CONSULTING", rating: 5, text: "John recently completed a full renovation of my 13-acre garden in Lansdown, Bath. I would recommend his team to anyone. They were in and out quickly, their quality of work is outstanding and very professional. I can now enjoy the summer in the garden", date: "5 years ago" },
+    { name: "Hilary Parsons", rating: 5, text: "Very pleased with my small but quirky garden. John and all connected with the project were very helpful and creative with what was a bit of a challenge. I am now going to have something to enjoy and spend time in. Will be sending lots of …  ", date: "2 years ago" },
+    { name: "Andrew Hodges", rating: 5, text: "We've used John (Manager of Bath Garden Co) for garden works and maintenance for 4+ years on a number of properties. He and his employees always perform high quality work and conduct themselves very professionally. John is easy to get hold of and is", date: "5 years ago" },
+    { name: "Christian Brindley", rating: 5, text: "We have used Bath Garden Company for three projects over the last 10 years - back garden patio, front garden path and steps, and back garden terracing with two additional patios. They are a very professional team who are a pleasure to work with, and", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
